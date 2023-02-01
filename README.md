@@ -2,6 +2,7 @@
 
 Hej! Här är en mall för att hosta en egen hemsida på GitHub i ett projekt som ni kallar USERNAME.github.io där USERNAME är ert användarnamn, typ som att mitt användarnamn är **williamviktorsson**.
 
+
 Jag har förberett hela detta projekt med det som behövs för att bygga en statisk hemsida med kommandot:
 
 ```bash

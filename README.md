@@ -1,4 +1,4 @@
-# USERNAME.github.io
+# ONI1.github.io
 
 Hej! Här är en mall för att hosta en egen hemsida på GitHub i ett projekt som ni kallar USERNAME.github.io där USERNAME är ert användarnamn, typ som att mitt användarnamn är **williamviktorsson**.
 

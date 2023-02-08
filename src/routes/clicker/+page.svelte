@@ -1,46 +1,39 @@
 <script>
-  import { src_url_equal } from "svelte/internal";
-
-let CPC = 0; // Cookies Per Click
-function cookieClicks(){
+  let CPC = 0;
+  function Clicks(){
     CPC += 1;
-    console.log(CPC)
-}
+    document.getElementById("cookieCount").innerHTML = "Cookies: " + CPC;
+  }
 </script>
-<h1>Welcome to ONI1'S Cookie Clicker!</h1> <!--Title on Clicker page -->
+<h1>Welcome to ONI1'S Cookie Clicker!</h1>
+<img id="CCI" class="Cookie" src="/CC.png" alt="Cookie Jummy :)" on:click={Clicks} on:keypress={Clicks}/> 
+<h2 id="cookieCount">Cookies: 0</h2>
 
-<img id="CCI"class="Cookie" src="/CC.png" alt="Cookie Jummy :)"/> <!--Cookie picture -->
-
-<main>
-  <div>
-      <h2>Cookies: {CPC}</h2>
-      <button on:click={cookieClicks}>Button</button>
-  </div>
-</main>
-
+     
 <style>
 
 .Cookie {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin: auto;
     display: block;
     position: relative;
-    bottom: -100px;    
+    bottom: -100px;
 }
-h1{
+
+h1 {
     text-shadow: 3px 3px 3px brown, 3px 3px 2px brown;
     font-weight: bold;
     text-align: center;
     font-size: 50px;
-    color:whitesmoke;
+    color: whitesmoke;
 }
-h2{
-  position: absolute;
-  top: 70px;
-  text-align: left;
-  color: brown;
-  text-shadow: 3px 3px 3px burlywood, 3px 3px 2px burlywood;
+
+h2 {
+    position: absolute;
+    top: 70px;
+    text-align: left;
+    color: brown;
+    text-shadow: 3px 3px 3px burlywood, 3px 3px 2px burlywood;
 }
 </style>
-  

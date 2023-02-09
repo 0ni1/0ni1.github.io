@@ -1,3 +1,8 @@
+<script>
+
+  import { blank_object } from "svelte/internal";
+
+</script>
 <nav>
   <a href="/">Hem</a>
   <a href="/telltale">Telltale</a>
@@ -7,13 +12,6 @@
   <a href="/search">Search</a>
   <a href="/blog">Blog</a>
 
-
-
-  <a
-    target="_blank"
-    href="https://github.com/williamviktorsson/williamviktorsson.github.io"
-    >GitHub</a
-  >
 </nav>
 
 <hr />

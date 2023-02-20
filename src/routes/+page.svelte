@@ -3,6 +3,13 @@
 
 </script>
 <h1>Välkommen till min hemsida!</h1>
+<head>
+  <style>
+  body {
+    background-color: #5c8a8a;
+  }
+  </style>
+</head>
 
 <style>
 h1{
@@ -13,13 +20,5 @@ h1{
   left: 550px ;
   position: relative;
 }
-
-a:active {
-  color: green;
-  background-color: transparent;
-  text-decoration: underline;
-  font-weight:bold;
-}
-
 
 </style>

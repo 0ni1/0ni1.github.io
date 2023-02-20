@@ -32,12 +32,16 @@
 <slot />
 
 <style>
+
+
 /* Add a black background color to the top navigation */
 nav {
   position: relative;
   background-color: #333;
   overflow: hidden;
   display: block;
+  border-radius: 27px;
+  padding: 3px;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,6 +52,8 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 27px;
+
 }
 
 /* Change the color of links on hover */

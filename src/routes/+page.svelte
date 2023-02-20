@@ -2,11 +2,7 @@
 
 
 </script>
-
 <h1>Välkommen till min hemsida!</h1>
-<nav>
-  background-color: black;
-</nav>
 
 <style>
 h1{
@@ -18,7 +14,12 @@ h1{
   position: relative;
 }
 
-
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight:bold;
+}
 
 
 </style>

@@ -7,6 +7,7 @@
     CPC += 1;
     document.getElementById("cookieCount").innerHTML = "Cookies: " + CPC;
   }
+  if (CPC >= 1){}
 </script>
 
 <!---<img id="CCB" class="CookieBack" alt="Backround" src="CCB.jpg" />     -->
@@ -23,10 +24,11 @@
     background-color: #8b4513;
   }
   nav{
-    background-color: blue;
+    background-color: #8b4513;
   }
   </style>
 </head>
+
 
 <style>
 
@@ -35,7 +37,6 @@
   width: auto;
   height: auto; 
 }  */
-
 
 .Cookie {
     width: 350px;

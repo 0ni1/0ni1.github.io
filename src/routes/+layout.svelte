@@ -7,7 +7,7 @@
   <a href="/">Hem</a>
   <a href="/clicker">Cookie Clicker</a>
   <a href="/chat">Chat</a>
-  <a href="/todo">Chat</a>
+  <a href="/todo">TODO</a>
 
 <!--
   <a href="/telltale">Telltale</a>

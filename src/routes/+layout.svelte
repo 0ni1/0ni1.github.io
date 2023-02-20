@@ -57,10 +57,10 @@ nav a:hover {
 }
 
 /* Add a color to the active/current link */
-nav a.active {
+/* nav a.active {
   background-color: #04AA6D;
   color: white;
-}
+} */
 
 
 /* Centered section inside the top navigation */

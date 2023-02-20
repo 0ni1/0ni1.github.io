@@ -2,7 +2,7 @@
 
 
 </script>
-<h1>Välkommen till min hemsida!</h1>
+<h1>Welcome to my website!</h1>
 <head>
   <style>
   body {
@@ -16,9 +16,9 @@ h1{
   color: whitesmoke;
   text-shadow: 3px 3px 3px black, 3px 3px 2px black;
   background-position: center;
-  top: 250px ;
-  left: 550px ;
-  position: relative;
+  top: 300px ;
+  left: 600px ;
+  position: fixed;
 }
 
 </style>

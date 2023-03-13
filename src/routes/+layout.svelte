@@ -26,7 +26,6 @@
      <a href="/clicker">Cookie Clicker</a>
      <a href="/chat">Chat</a>
      <a href="/todo">TODO</a>
-     <a href="/rotating-bf">RBF</a>
 	 <a href="/about">About</a>
 
   </div>

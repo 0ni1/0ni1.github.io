@@ -5,19 +5,20 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout-cceb95b2.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/_layout-8003c18b.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-bf3a348c.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-31589446.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-bc435a7a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-8afd756c.js">
+		<link rel="modulepreload" href="./_app/immutable/start-18946cf6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-829657cb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-3ed28d1a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-baa1c60a.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/control-f5b05b5f.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/parse-f0c618df.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-ff87aa20.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-5e03a691.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/blog/_layout.svelte-c7615a9f.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/blog/_page.svelte-435b3210.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/blog/_layout.svelte-35f5938a.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/blog/_page.svelte-8a720763.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/blog/_page.js-4b271f59.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_page-80848ead.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
       margin-left: 10%;
@@ -29,19 +30,14 @@
 		<div style="display: contents">
 
 
-<nav><a href="/">Hem</a>
-  <a href="/telltale">Telltale</a>
-  <a href="/memory">Memory</a>
-  <a href="/chat">Chat</a>
-  <a href="/search">Search</a>
-  <a href="/blog">Blog</a>
 
 
-
-  <a target="_blank" href="https://github.com/williamviktorsson/williamviktorsson.github.io">GitHub</a></nav>
-
-<hr>
-
+ 
+ <nav class="Nav svelte-1k8h0ee"><div class="Nav-Centered svelte-1k8h0ee"><a href="/" class="svelte-1k8h0ee">Home</a>
+     <a href="/clicker" class="svelte-1k8h0ee">Cookie Clicker</a>
+     <a href="/chat" class="svelte-1k8h0ee">Chat</a>
+     <a href="/todo" class="svelte-1k8h0ee">TODO</a>
+	 <a href="/about" class="svelte-1k8h0ee">About</a></div></nav> 
 
 
 <main class="container"><h1>Blog</h1>
@@ -58,24 +54,30 @@
     </li><li><h2><a href="/blog/test">Post three
         </a></h2>
       Published 2022-11-30
+    </li><li><h2><a href="/blog/tester">Tester
+        </a></h2>
+      Published 2022-11-30
+    </li><li><h2><a href="/blog/tjena">Tjena
+        </a></h2>
+      Published 2023-01-12
     </li></ul></main>
 
 
-		<script type="module" data-sveltekit-hydrate="1pn2vk6">
-			import { start } from "./_app/immutable/start-bf3a348c.js";
+		<script type="module" data-sveltekit-hydrate="1yfktvw">
+			import { start } from "./_app/immutable/start-18946cf6.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1pn2vk6"]').parentNode,
-				version: "1673125352534",
+				target: document.querySelector('[data-sveltekit-hydrate="1yfktvw"]').parentNode,
+				version: "1678868236994",
 				hydrate: {
-					node_ids: [0, 2, 6],
+					node_ids: [0, 2, 7],
 					data: [null,null,null],
 					form: null
 				}
 			});
 		</script>
-	<script type="application/json" data-sveltekit-fetched data-url="/api/posts">{"status":200,"statusText":"","headers":{},"body":"[{\"meta\":{\"title\":\"Post One\",\"date\":\"2021-12-14\"},\"path\":\"1\"},{\"meta\":{\"title\":\"Post Two\",\"date\":\"2022-11-29\",\"count\":25,\"color\":\"cadetblue\",\"list\":[1,2,3,4,\"boo\"]},\"path\":\"2\"},{\"meta\":{\"title\":\"Post four\",\"date\":\"2021-12-14\"},\"path\":\"3\"},{\"meta\":{\"title\":\"Post three\",\"date\":\"2022-11-30\"},\"path\":\"test\"}]"}</script></div>
+	<script type="application/json" data-sveltekit-fetched data-url="/api/posts">{"status":200,"statusText":"","headers":{},"body":"[{\"meta\":{\"title\":\"Post One\",\"date\":\"2021-12-14\"},\"path\":\"1\"},{\"meta\":{\"title\":\"Post Two\",\"date\":\"2022-11-29\",\"count\":25,\"color\":\"cadetblue\",\"list\":[1,2,3,4,\"boo\"]},\"path\":\"2\"},{\"meta\":{\"title\":\"Post four\",\"date\":\"2021-12-14\"},\"path\":\"3\"},{\"meta\":{\"title\":\"Post three\",\"date\":\"2022-11-30\"},\"path\":\"test\"},{\"meta\":{\"title\":\"Tester\",\"date\":\"2022-11-30\"},\"path\":\"tester\"},{\"meta\":{\"title\":\"Tjena\",\"date\":\"2023-01-12\"},\"path\":\"tjena\"}]"}</script></div>
 	</body>
 </html>

@@ -22,7 +22,7 @@
  <!-- Top navigation -->
  <nav class="Nav">
   <div class="Nav-Centered">
-     <a href="/">Moumen</a>
+     <a href="/">Home</a>
      <a href="/clicker">Cookie Clicker</a>
      <a href="/chat">Chat</a>
      <a href="/todo">TODO</a>

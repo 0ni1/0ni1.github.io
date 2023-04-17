@@ -18,6 +18,8 @@
 
 <h2 id="cookieCount">Cookies: 0</h2>
 
+<button class="btn">Hello daisyUI</button>
+
 <head>
   <style>
   body {

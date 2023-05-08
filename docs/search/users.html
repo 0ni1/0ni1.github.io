@@ -5,25 +5,33 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="../_app/immutable/start-18946cf6.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-829657cb.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-3ed28d1a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-baa1c60a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/control-f5b05b5f.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/parse-f0c618df.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.580af96c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.7b971333.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.edd55392.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.ad7a3d44.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control.e7f5239e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/parse.d12b0d5b.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.9599e764.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.41c905a7.js">
 	</head>
 	<body>
 		<div style="display: contents">
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "../_app/immutable/start-18946cf6.js";
+			<script>
+				{
+					__sveltekit_yala4b = {
+						env: {},
+						base: new URL("..", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				version: "1678868236994"
-			});
-		</script></div>
+					Promise.all([
+						import("../_app/immutable/entry/start.580af96c.js"),
+						import("../_app/immutable/entry/app.9599e764.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_yala4b.element);
+					});
+				}
+			</script>
+		</div>
 	</body>
 </html>

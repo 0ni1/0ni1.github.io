@@ -1,23 +1,4 @@
-<script> // JS \\
 
-  import { blank_object } from "svelte/internal";
-
-</script> <!-- HTML -->
-<!--
-  <nav>
-  <li> <a href="/">Home</a></li>
-  <li> <a href="/clicker">Cookie Clicker</a></li>
-  <li> <a href="/chat">Chat</a></li>
-  <li> <a href="/todo">TODO</a></li>¨
-  <li> <a class="active" href="/about">About</a></li>
-
-
-  <a href="/telltale">Telltale</a>
-  <a href="/blog">Blog</a>
-  <a href="/memory">Memory</a>
-  <a href="/search">Search</a>
-  <a href="/blog">Blog</a>
--->
 
  <!-- Top navigation -->
  <outLine class = outline>

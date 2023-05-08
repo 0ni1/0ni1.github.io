@@ -5,19 +5,20 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-cceb95b2.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-18946cf6.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-829657cb.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-3ed28d1a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-baa1c60a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/control-f5b05b5f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/parse-f0c618df.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-5e03a691.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/search/_layout.svelte-72f8a8ec.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/search/_page.svelte-410f349f.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
+		<link href="./_app/immutable/assets/_layout.f2410a87.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.580af96c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.7b971333.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.edd55392.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.ad7a3d44.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/control.e7f5239e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/parse.d12b0d5b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.9599e764.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.4ffd143f.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/search-layout.svelte.d3778b89.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/search-page.svelte.8f1c717b.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
       margin-left: 10%;
       margin-right: 10%;
     }
@@ -28,13 +29,12 @@
 
 
 
-
- 
- <nav class="Nav svelte-1k8h0ee"><div class="Nav-Centered svelte-1k8h0ee"><a href="/" class="svelte-1k8h0ee">Home</a>
-     <a href="/clicker" class="svelte-1k8h0ee">Cookie Clicker</a>
-     <a href="/chat" class="svelte-1k8h0ee">Chat</a>
-     <a href="/todo" class="svelte-1k8h0ee">TODO</a>
-	 <a href="/about" class="svelte-1k8h0ee">About</a></div></nav> 
+ <outLine class="outline svelte-14mk214"><nav class="Nav svelte-14mk214"><div class="Nav-Centered svelte-14mk214"><a class="active svelte-14mk214" href="/">Home</a>
+      <a href="/clicker" class="svelte-14mk214">Cookie Clicker</a>
+      <a href="/chat" class="svelte-14mk214">Chat</a>
+      <a href="/todo" class="svelte-14mk214">TODO</a>
+	  <a href="/about" class="svelte-14mk214">About</a></div>
+    <select data-choose-theme><b value="cupcake">Default</b><b value="dark">Dark</b><b value="cymk">cmyk</b></select></nav></outLine>
 
 
 <main class="container">
@@ -43,21 +43,30 @@
   <ul><li><a href="/search/users">Users</a></li><li><a href="/search/addresses">Address</a></li><li><a href="/search/banks">Banks</a></li><li><a href="/search/appliances">Appliances</a></li><li><a href="/search/beers">Beers</a></li><li><a href="/search/blood_types">Blood Types</a></li><li><a href="/search/credit_cards">Credit Cards</a></li></ul></div></main>
 
 
-		<script type="module" data-sveltekit-hydrate="1gchjpf">
-			import { start } from "./_app/immutable/start-18946cf6.js";
+			
+			<script>
+				{
+					__sveltekit_yala4b = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1gchjpf"]').parentNode,
-				version: "1678868236994",
-				hydrate: {
-					node_ids: [0, 3, 12],
-					data: [null,null,null],
-					form: null
+					const data = [null,null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.580af96c.js"),
+						import("./_app/immutable/entry/app.9599e764.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_yala4b.element, {
+							node_ids: [0, 3, 12],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
 	</body>
 </html>

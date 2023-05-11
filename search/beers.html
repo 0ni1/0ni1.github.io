@@ -5,33 +5,25 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.bb477087.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.7b971333.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.3a39fb2b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.ad7a3d44.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/control.e7f5239e.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/parse.d12b0d5b.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.3d5f3851.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/start-6c26b8d9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-bb2635c3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-420b2117.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-b6c5d38e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control-f5b05b5f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/parse-d12b0d5b.js">
 	</head>
-	<body>
+	<body data-theme="cupcake">
 		<div style="display: contents">
-			<script>
-				{
-					__sveltekit_1upjlg6 = {
-						env: {},
-						base: new URL("..", location).pathname.slice(0, -1),
-						element: document.currentScript.parentElement
-					};
+		<script type="module" data-sveltekit-hydrate="45h">
+			import { start } from "../_app/immutable/start-6c26b8d9.js";
 
-					Promise.all([
-						import("../_app/immutable/entry/start.bb477087.js"),
-						import("../_app/immutable/entry/app.3d5f3851.js")
-					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1upjlg6.element);
-					});
-				}
-			</script>
-		</div>
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+				version: "1683834727968"
+			});
+		</script></div>
 	</body>
 </html>

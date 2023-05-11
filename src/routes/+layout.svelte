@@ -1,7 +1,18 @@
+<script>
+  import '../app.css'
 
+  let selectedTheme
+
+  function applyTheme(event){
+    selectedTheme = event.target.value;
+    console.log(selectedTheme)
+    document.documentElement.setAttribute('data-theme',selectedTheme)
+  }
+
+</script>
 
  <!-- Top navigation -->
- <outLine class = outline>
+ <div class = "outline">
   <nav class="Nav">
     <div class="Nav-Centered">
       <a class="active" href="/">Home</a>
@@ -11,20 +22,21 @@
 	  <a href="/about">About</a>
 
     </div>
-    <select data-choose-theme>
-      <b value="cupcake">Default</b>
-      <b value="dark">Dark</b>
-      <b value="cymk">cmyk</b>
+    <select data-choose-theme on:change={(e)=>applyTheme(e)}>
+      <option value="cupcake">Default</option>
+      <option value="dark">Dark</option>
+      <option value="cymk">cmyk</option>
     </select>
   </nav>   
-</outLine>
+</div>
 <slot/>
+
 
 <style> /* CSS */
 
 
 /* Add a black background color to the top navigation */
-outLine {
+.outline {
   display: block;  
   margin: 0;
   padding: 10;

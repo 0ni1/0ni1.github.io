@@ -11,7 +11,10 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.14",
+		"daisyui": "^2.51.5",
 		"mdsvex": "^0.10.6",
+		"postcss": "^8.4.23",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-format": "^4.0.1",
 		"rehype-slug": "^5.1.0",
@@ -26,7 +29,8 @@
 		"remark-slug": "^7.0.1",
 		"remark-toc": "^8.0.1",
 		"svelte": "^3.44.0",
-		"svelte-preprocess": "^4.10.7"
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.3.1"
 	},
 	"type": "module",
 	"dependencies": {

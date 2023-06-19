@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- svelte-ignore a11y-missing-attribute -->
 <html>
 <head>
   <style>

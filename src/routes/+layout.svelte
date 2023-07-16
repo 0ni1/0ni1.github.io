@@ -17,6 +17,7 @@
     <div class="Nav-Centered">
       <a class="active" href="/">Home</a>
       <a href="/clicker">Cookie Clicker</a>
+      <a href="/music">Music Player</a>
       <a href="/chat">Chat</a>
       <a href="/todo">TODO</a>
       <a href="/about">About</a>

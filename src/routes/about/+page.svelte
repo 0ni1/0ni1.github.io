@@ -50,7 +50,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>About Us</h1>
+    <h1>ABOUT 0NI1'S WEBSITE</h1>
     <p>Hello and welcome to 0NI1S Website. Here will my Journey learning JS, CSS and HTML be documented</p>
   </div>
 </body>
